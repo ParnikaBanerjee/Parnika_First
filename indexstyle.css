@@ -18,6 +18,11 @@ eseva-one-regular {
 }
 .header{
     position:absolute;
+
+    top: 0;
+    left: 0;
+    z-index: 10;
+
     width:100%;
     padding: 3rem 9%;
     background-color:var(--maroon);
