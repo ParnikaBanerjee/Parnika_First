@@ -1,0 +1,213 @@
+eseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bonheur-royale-regular {
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+:root{
+    --offwhite: #ffebd2;
+    --orange: #ffa364;
+    --ored:#fc7643;
+    --maroon:#af5041;
+    --dblue:#273248;
+}
+.header{
+    position:absolute;
+    width:100%;
+    padding: 3rem 9%;
+    background-color:var(--maroon);
+    color:#FFEBD2;
+    display: flex;
+    align-items:normal;
+}
+nav{
+    position:absolute;
+    color:#FC7643;
+}
+
+.vl{
+    border-left: 2px solid --ored;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+body{
+    margin:0;
+    font-family: "Yeseva One", serif;
+    background: var(--maroon);
+}
+section{
+    position:relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100% ;
+    height:550px;
+    padding:50px;
+}
+.pfp{
+    display:flex;
+    justify-content: left;
+    align-content: center;
+    min-height: 80vh;
+    width:50%;
+}
+.image{
+    margin:auto 0;
+    width:380px;
+    height: 380px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.image img{
+    width:380px;
+    height:380px;
+    object-fit:cover;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid black ;
+    padding:10px;
+    
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    padding:0px 0px 200px 0px;
+}
+
+.maroon{
+    background: var(--maroon);
+    color:var(--offwhite);
+    display:flex;
+    flex-direction: row;
+}
+.type::after{
+    content:"";
+    top:0;
+    bottom:0;
+    left:0;
+    position:absolute;
+    right:0;
+
+    animation:typing 2s steps(8);
+}
+@keyframes typing{
+    to{
+        width:0%;
+    }
+}
+.content h1{
+    font-family: "Bonheur Royale", cursive;
+    font-size: 50px;
+    margin-bottom:50px;
+}
+.offwhite{
+    background: var(--offwhite);
+    color:var(--ored);
+    display:flex;
+    flex-direction: row;
+}
+.orange{
+    background: var(--orange);
+    color:var(--dblue);
+    height:50px;
+}
+.ored{
+    background: var(--ored);
+    color:var(--dblue);
+    height:5px;
+}
+.blue{
+    background:var(--dblue);
+    color: var(--offwhite);
+    height:50px;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 339px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #FFEBD2;
+}
+.tilt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.tilt svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+    transform: rotateY(180deg);
+}
+
+.tilt .shape-fill {
+    fill: #273248;
+}
+.manywaves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.manywaves svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 140px;
+}
+
+.manywaves .shape-fill {
+    fill: #FFA364;
+}
+.slit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.slit svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.slit .shape-fill {
+    fill: #FC7643;
+}    
